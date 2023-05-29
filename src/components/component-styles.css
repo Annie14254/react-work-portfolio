@@ -34,3 +34,18 @@
     margin-left: 30px;
     margin-top:30px;
 }
+
+.resumeDownload{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top:30px;
+}
+
+.contactSection{
+    margin-left: 30px;
+    margin-top:30px; 
+}
+
+#pdfIcon{
+    background-color: #0275d8;
+}

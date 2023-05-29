@@ -126,10 +126,15 @@ header ul li h1{
 .list-group .list-group-item{
   background-color: #4D4D4D;
   color: white;
+  min-width:15%
 }
 
 .list-group .link:hover{
   opacity: 50%;
+}
+
+.list-group .link{
+  font-weight: bold;
 }
 
 footer{
@@ -142,4 +147,12 @@ footer{
 
 main {
   margin-bottom: 80px;
+}
+
+#linkedinIcon{
+  background-color: #4D4D4D;
+}
+
+#githubIcon{
+  background-color: #4D4D4D;
 }

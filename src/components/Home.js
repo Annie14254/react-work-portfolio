@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 function Home(props){
     return(
         <div>
-            <h1 class = "sectionTitle">Home</h1>
+            <h1 class = "sectionTitle">About Me</h1>
             <div class = "homeImg">
                 <img src="https://via.placeholder.com/200"/>
             </div>
