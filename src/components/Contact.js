@@ -8,10 +8,6 @@ function Contact(props){
 
     const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i
 
-    var name = document.getElementById("#nameInput")
-    var email = document.getElementById("#emailInput")
-    var query = document.getElementById("#queryInput")
-
     const [emailInput, saveEmailInput] = useState("")
     const isErrorEmail = emailInput === ""
     const [nameInput, saveNameInput] = useState("")
