@@ -44,7 +44,7 @@
   }
 }
 
-header{
+/* header{
   background-color: #4D4D4D;
   padding: 50px;
 }
@@ -63,7 +63,7 @@ header ul li{
   color:white;
   padding: 20px;
   display: inline-block;
-  /* remove the float, it breaks the mobile-first design */
+
   float: right;
   margin-right: 100px;
   margin-top: -50px;
@@ -100,4 +100,46 @@ footer ul li a:hover{
 footer{
   background-color: #4D4D4D;
   padding: 10px;
+} */
+
+
+footer{
+  background-color: #4D4D4D;
+  padding: 10px;
+}
+
+footer a {
+  background-color: #4D4D4D;
+  display: inline-block;
+  padding-inline: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+header ul li h1{
+  background-color: #4D4D4D;
+  color: white;
+}
+
+.list-group .list-group-item{
+  background-color: #4D4D4D;
+  color: white;
+}
+
+.list-group .link:hover{
+  opacity: 50%;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  min-width: 100%
+}
+
+main {
+  margin-bottom: 80px;
 }
