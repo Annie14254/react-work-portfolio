@@ -2,7 +2,7 @@ import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 import 'bootstrap/dist/css/bootstrap.css';
 import {useState, useEffect} from "react"
-//import './component-styles.css';
+import './component-styles.css';
 
 function Contact(props){
 
@@ -20,18 +20,18 @@ function Contact(props){
         if(emailInput && emailInput.length && emailInput.match(emailRegex)){
             console.log("success")
         } else if (!emailInput || !nameInput || !queryInput){
-            alert("Please fill out all fields and try again.")
+            alert("Please fill in all fields and try again.")
         } else if (!emailInput.match(emailRegex)){
             alert("Please input a valid email address.")
         } 
     }
 
     return(
-        <div>
+        <div className = "col-7">
             <h1 class = "sectionTitle">Contact</h1>
 
-            <form className='row mx-3 mt-3'>
-                <div className="col-5">
+            <form className='row mx-3 mt-3 contactSection"'>
+                <div>
                     <Form.Label>Name</Form.Label>
                     <Form.Control type = "text" name = "name" id = "nameInput" onChange={(e) => saveNameInput(e.target.value)}/><br/>
                     <Form.Label>Email</Form.Label>
@@ -41,6 +41,11 @@ function Contact(props){
 
 
                     <Button onClick={handleSubmit}>Submit</Button>
+
+                    <div>
+                        <br/>
+                        <p>Contact by email at annieyashley@gmail.com or by phone at 763-250-9831.</p>
+                    </div>
                 </div>
             </form>
         </div>

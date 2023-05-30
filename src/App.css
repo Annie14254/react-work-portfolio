@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   background-color: #FFF4E0;
+  
 }
 
 .App {
@@ -44,64 +45,6 @@
   }
 }
 
-/* header{
-  background-color: #4D4D4D;
-  padding: 50px;
-}
-
-
-
-header ul h1 {
-  min-width: 100%;
-  background-color: #4D4D4D;
-  color: white
-}
-
-header ul li{
-  list-style: none;
-  background-color: #4D4D4D;
-  color:white;
-  padding: 20px;
-  display: inline-block;
-
-  float: right;
-  margin-right: 100px;
-  margin-top: -50px;
-  font-size: 20px
-}
-
-header ul li:hover{
-  opacity: 50%
-}
-
-
-
-footer ul li {
-  list-style: none;
-  background-color: #4D4D4D;
-  color:white;
-  padding: 20px;
-  display: inline-block;
-  min-width: 100%;
-  text-align: center;
-}
-
-footer ul li a {
-  background-color: #4D4D4D;
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-}
-
-footer ul li a:hover{
-  opacity:50%
-}
-
-footer{
-  background-color: #4D4D4D;
-  padding: 10px;
-} */
-
 
 footer{
   background-color: #4D4D4D;
@@ -126,10 +69,15 @@ header ul li h1{
 .list-group .list-group-item{
   background-color: #4D4D4D;
   color: white;
+  min-width:15%
 }
 
 .list-group .link:hover{
   opacity: 50%;
+}
+
+.list-group .link{
+  font-weight: bold;
 }
 
 footer{
@@ -142,4 +90,17 @@ footer{
 
 main {
   margin-bottom: 80px;
+  
+}
+
+#linkedinIcon{
+  background-color: #4D4D4D;
+}
+
+#githubIcon{
+  background-color: #4D4D4D;
+}
+
+.footerLink:hover{
+  opacity: 50%;
 }
