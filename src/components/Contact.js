@@ -41,6 +41,11 @@ function Contact(props){
 
 
                     <Button onClick={handleSubmit}>Submit</Button>
+
+                    <div>
+                        <br/>
+                        <p>Contact by email at annieyashley@gmail.com or by phone at 763-250-9831.</p>
+                    </div>
                 </div>
             </form>
         </div>

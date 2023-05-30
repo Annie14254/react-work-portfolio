@@ -49,3 +49,47 @@
 #pdfIcon{
     background-color: #0275d8;
 }
+
+.projectCard{
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:-90px;
+}
+
+.projectImg{
+    object-fit: cover;
+    min-width: 400px;
+    min-height: 400px;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+/*I almost definitely did something wrong when setting the global background color, hence manually setting all these elements. Didn't have time to figure out the real problem.*/
+
+.projectBody{
+    background-color: white; 
+}
+
+.projectDesc{
+    background-color: white; 
+}
+
+
+.projectTitle{
+    background-color: white; 
+}
+
+.projectTech{
+    background-color: white; 
+}
+
+.projectLink{
+    background-color: #6c757d;
+    color: white;
+    text-decoration: none;
+}
+
+.projectLink:hover{
+    opacity:50%
+}

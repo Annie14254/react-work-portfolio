@@ -47,7 +47,7 @@ function Resume(props){
                 <div>
                     <br/>
                     <h5>Skills</h5>
-                    <h6>Front-End Development</h6>
+                    <h6>Front-End Development Frameworks</h6>
                         <ul>
                             <li>HTML5</li>
                             <li>CSS3</li>
@@ -56,18 +56,19 @@ function Resume(props){
                             <li>Handlebars</li>
                             <li>React</li>
                         </ul>
-                    <h6>Back-End Development</h6>
+                    <h6>Back-End Development Frameworks</h6>
                         <ul>
                             <li>Express</li>
                             <li>Node</li>
                             <li>MySQL and NoSQL</li>
                             <li>MongoDB</li>
                         </ul>
-                    <h6>Full-Stack Development</h6>
+                    <h6>Full-Stack Development Skills</h6>
                         <ul>
                             <li>Model View Controller (MVC)</li>
                             <li>Object Relational Mapping (ORM)</li>
                             <li>Progressive Web Applications (PWA)</li>
+                            <li>Agile Web Development</li>
                         </ul>
                 </div>
             </div>
