@@ -100,3 +100,7 @@ main {
 #githubIcon{
   background-color: #4D4D4D;
 }
+
+.footerLink:hover{
+  opacity: 50%;
+}
