@@ -13,6 +13,12 @@
 ## Description
 This is an application that provides some information about myself, as well as examples of my work, linking back to the GitHub repositories as well as the active deployed application for each. 
 
+## Deployed Site
+
+An image of the deployed website can be seen below.
+
+<img src = "src/components/images/deployedpage.png" alt = "An image of the deployed React portfolio"/>
+
 ## Installation
 To install the dependencies required for the application, run the following line in the terminal.
 
