@@ -21,7 +21,7 @@ npm install
 ```
 
 ## Usage
-To access the deployed site, click (here)[https://aashley-react-portfolio.herokuapp.com/]
+To access the deployed site, click [here](https://aashley-react-portfolio.herokuapp.com/)
 
 ## Testing
 To test the application, run the following line in the terminal.
