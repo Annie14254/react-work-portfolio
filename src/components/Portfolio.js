@@ -59,7 +59,7 @@ function Portfolio(props){
         },
         {
             name: "JATE Text Editor",
-            description: "Backend only: A Progressive Web Application (PWA) that provides a text editor that can be used offline.",
+            description: "Back-end only: A Progressive Web Application (PWA) that provides a text editor that can be used offline.",
             techStack: "JavaScript, IndexedDB API, Node",
             imgSrc: jateeditor,
             gitLink: "https://github.com/Annie14254/jate-text-editor",
